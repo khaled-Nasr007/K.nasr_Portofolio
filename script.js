@@ -56,7 +56,7 @@ window.onload = function() {
         event.preventDefault(); // Prevent default form submission
 
         // 'contact-form' is the form ID
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+        emailjs.sendForm('service_5w74ldj', 'template_il9s30b', this)
             .then(() => {
                 alert('SUCCESS! Email sent directly.');
                 // Optional: Reset the form
@@ -67,5 +67,6 @@ window.onload = function() {
             });
     });
 }
+
 
 
