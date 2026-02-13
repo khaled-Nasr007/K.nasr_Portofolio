@@ -41,4 +41,11 @@ container.innerHTML = "";
   span.textContent = char === " " ? "\u00A0" : char;
   span.style.animationDelay = `${index * 0.3}s`;
   container.appendChild(span);
+
 });
+
+
+
+(function() {
+    emailjs.init("TcPbrvBRxIaP3PeHG");
+})();
