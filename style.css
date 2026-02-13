@@ -533,7 +533,7 @@ textarea {
   display: flex;
   flex-flow: row;
   gap: 4vw;
-  width: 90%;
+  width: 80%;
   justify-content: space-evenly;
   padding: 4vh 1vw;
   margin: 2vh auto;
@@ -544,6 +544,7 @@ textarea {
   gap: 2vh;
   text-align: center;
   color: #575656;
+  font-size: 1vw;
 }
 
 /* ///////////////////////////////////////////////////////////// */
@@ -685,3 +686,4 @@ textarea {
 .fixed:hover {
   font-size: 3.5vw;
 }
+
