@@ -96,7 +96,7 @@ main {
   perspective: 1500px;
 }
 #home {
-  background-image: url(./images/home-bg-image.avif);
+  background-image: url(./home-bg-image.avif);
   background-size: cover;
   position: relative;
   height: 100%;
@@ -686,4 +686,5 @@ textarea {
 .fixed:hover {
   font-size: 3.5vw;
 }
+
 
