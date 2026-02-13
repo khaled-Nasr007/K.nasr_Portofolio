@@ -49,3 +49,23 @@ container.innerHTML = "";
 (function() {
     emailjs.init("TcPbrvBRxIaP3PeHG");
 })();
+
+
+window.onload = function() {
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
+
+        // 'contact-form' is the form ID
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+            .then(() => {
+                alert('SUCCESS! Email sent directly.');
+                // Optional: Reset the form
+                this.reset();
+            }, (error) => {
+                console.log('FAILED...', error);
+                alert('FAILED... ' + JSON.stringify(error));
+            });
+    });
+}
+
+
