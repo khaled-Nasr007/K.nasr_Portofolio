@@ -694,7 +694,7 @@ textarea {
 }
 @media only screen and (max-width: 480px) {
  #home {
-    background-size: auto;
+    background-size: contain;
   }
 
   
@@ -756,4 +756,5 @@ textarea {
 .fixed:hover {
   font-size: 3.5vw;
 }
+
 
