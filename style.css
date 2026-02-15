@@ -643,8 +643,8 @@ textarea {
 }
 /* /////////////////////////////////////////////// */
 @media only screen and (max-width: 768px) {
-   #home {
-    background-size: auto;
+  #home {
+    background-image: url(./unnamed.jpg);
   }
 
   #potrofolio .warber .cards {
@@ -694,9 +694,8 @@ textarea {
 }
 @media only screen and (max-width: 480px) {
  #home {
-    background-size: contain;
+    background-image: url(./unnamed.jpg);
   }
-
   
   #potrofolio .warber .cards {
     display: grid;
@@ -756,5 +755,6 @@ textarea {
 .fixed:hover {
   font-size: 3.5vw;
 }
+
 
 
