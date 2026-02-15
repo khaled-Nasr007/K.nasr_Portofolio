@@ -643,6 +643,10 @@ textarea {
 }
 /* /////////////////////////////////////////////// */
 @media only screen and (max-width: 768px) {
+   #home {
+    background-size: auto;
+  }
+
   #potrofolio .warber .cards {
     display: grid;
     grid-template-columns: repeat(2, minmax(30vw, 40vw));
@@ -689,6 +693,11 @@ textarea {
   }
 }
 @media only screen and (max-width: 480px) {
+ #home {
+    background-size: auto;
+  }
+
+  
   #potrofolio .warber .cards {
     display: grid;
     grid-template-columns: repeat(2, minmax(30vw, 40vw));
@@ -747,3 +756,4 @@ textarea {
 .fixed:hover {
   font-size: 3.5vw;
 }
+
