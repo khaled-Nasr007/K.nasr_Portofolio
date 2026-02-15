@@ -645,13 +645,24 @@ textarea {
 @media only screen and (max-width: 768px) {
   #potrofolio .warber .cards {
     display: grid;
-    grid-template-columns: repeat(2, minmax(30%, 40%));
+    grid-template-columns: repeat(2, minmax(30vw, 40vw));
     gap: 2vw;
     justify-content: space-evenly;
   }
   #potrofolio .warber .cards .card {
     height: 25vh;
   }
+  .flip-card {
+    width: 35vw;
+  }
+  .flip-card-inner {
+    width: 34vw;
+  }
+  #potrofolio .warber .cards .card .card-pic img {
+    width: 34vw;
+    height: 22vh;
+  }
+
   .layout {
     display: flex;
     flex-flow: column;
@@ -680,13 +691,24 @@ textarea {
 @media only screen and (max-width: 480px) {
   #potrofolio .warber .cards {
     display: grid;
-    grid-template-columns: repeat(1, minmax(70%, 80%));
+    grid-template-columns: repeat(2, minmax(30vw, 40vw));
     gap: 2vw;
     justify-content: space-evenly;
   }
   #potrofolio .warber .cards .card {
-    height: 15vh;
+    height: 25vh;
   }
+  .flip-card {
+    width: 35vw;
+  }
+  .flip-card-inner {
+    width: 34vw;
+  }
+  #potrofolio .warber .cards .card .card-pic img {
+    width: 34vw;
+    height: 22vh;
+  }
+
   .layout {
     display: flex;
     flex-flow: column;
@@ -725,6 +747,3 @@ textarea {
 .fixed:hover {
   font-size: 3.5vw;
 }
-
-
-
