@@ -641,6 +641,21 @@ textarea {
     opacity: 1;
   }
 }
+/* ////////////////////////////////////////////////////////////// */
+
+.fixed {
+  font-size: 3vw;
+  color: rgb(11, 112, 11);
+  text-shadow: 0.2rem 0.2rem rgba(0, 128, 0, 0.103);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.fixed:hover {
+  font-size: 3.5vw;
+}
+
 /* /////////////////////////////////////////////// */
 @media only screen and (max-width: 768px) {
   #home {
@@ -804,6 +819,7 @@ textarea {
     display: none;
   }
 }
+
 /* ///////////////////////////////////////////////////////////// */
 @media only screen and (max-width: 480px) {
   #home {
@@ -969,15 +985,3 @@ textarea {
   }
 }
 /* //////////////////////////////////////// */
-.fixed {
-  font-size: 3vw;
-  color: rgb(11, 112, 11);
-  text-shadow: 0.2rem 0.2rem rgba(0, 128, 0, 0.103);
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-}
-
-.fixed:hover {
-  font-size: 3.5vw;
-}
