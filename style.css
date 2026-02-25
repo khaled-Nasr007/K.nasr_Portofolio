@@ -662,6 +662,10 @@ textarea {
   #potrofolio .warber .filter .filter-controls label {
     font-size: 4vw;
   }
+  #potrofolio .warber .cards .card {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
   #potrofolio .warber .cards .card .bio h2 {
     font-size: 3.5vw;
   }
@@ -797,6 +801,7 @@ textarea {
     display: none;
   }
 }
+
 @media only screen and (max-width: 480px) {
   #home {
     background-image: url(./unnamed.jpg);
@@ -815,6 +820,10 @@ textarea {
   }
   #potrofolio .warber .filter .filter-controls label {
     font-size: 4vw;
+  }
+  #potrofolio .warber .cards .card {
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   #potrofolio .warber .cards .card .bio h2 {
     font-size: 3.5vw;
