@@ -646,9 +646,12 @@ textarea {
   #home {
     background-image: url(./unnamed.jpg);
   }
-
+  header {
+    height: 5vh;
+  }
   .nav-links nav ul li {
     font-size: 2.5vw;
+    padding: 3vw 0;
   }
   #home h1 {
     font-size: 10vw;
@@ -801,13 +804,18 @@ textarea {
     display: none;
   }
 }
-
+/* ///////////////////////////////////////////////////////////// */
 @media only screen and (max-width: 480px) {
   #home {
     background-image: url(./unnamed.jpg);
   }
+
+  header {
+    height: 5vh;
+  }
   .nav-links nav ul li {
     font-size: 2.5vw;
+    padding: 3vw 0;
   }
   #home h1 {
     font-size: 10vw;
