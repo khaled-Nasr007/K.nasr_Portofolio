@@ -647,6 +647,111 @@ textarea {
     background-image: url(./unnamed.jpg);
   }
 
+  .nav-links nav ul li {
+    font-size: 2.5vw;
+  }
+  #home h1 {
+    font-size: 10vw;
+  }
+  #home p {
+    font-size: 7.5vw;
+  }
+  #potrofolio .warber .head {
+    font-size: 4vw;
+  }
+  #potrofolio .warber .filter .filter-controls label {
+    font-size: 4vw;
+  }
+  #potrofolio .warber .cards .card .bio h2 {
+    font-size: 3.5vw;
+  }
+  #potrofolio .warber .cards .card .bio {
+    gap: 2vh;
+  }
+  #potrofolio .warber .cards .card .bio p {
+    font-size: 2.5vw;
+  }
+  #about .warber .head {
+    font-size: 4vw;
+  }
+  #about .warber .about-1st .intro {
+    width: 90vw;
+  }
+  #about .warber .about-1st .intro p {
+    font-size: 3vw;
+    text-align: justify;
+  }
+  #about .warber .about-1st {
+    display: flex;
+    flex-flow: column;
+  }
+  #about .warber .about-1st .skills {
+    display: flex;
+    flex-flow: row;
+    align-items: self-start;
+    gap: 4vw;
+  }
+  #about .warber .about-1st .skills table tr {
+    font-size: 3vw;
+  }
+  #about .warber .about-1st .skills .cv {
+    font-size: 3vw;
+  }
+  #about .warber .cards {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+  .solutions .card {
+    display: flex;
+    flex-flow: column;
+    gap: 1vh;
+    font-size: 2.5vw;
+    line-height: 2vh;
+    width: 40vw;
+  }
+  .solutions .card i {
+    font-size: 6vw;
+  }
+  #contact .warber .head {
+    font-size: 4vw;
+  }
+  #contact .warber .input-form form .name-email .name,
+  .email {
+    width: 44vw;
+  }
+  #contact .warber .input-form form div input,
+  textarea {
+    font-size: 4vw;
+  }
+  #contact .warber .input-form form .submit input {
+    width: 40vw;
+    font-size: 4vw;
+  }
+  #contact .warber .contact-info {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 6vw;
+  }
+  #contact .warber .contact-info div {
+    font-size: 5vw;
+  }
+  #contact .warber .contact-info div i {
+    font-size: 7vw;
+  }
+  #contact .warber footer div {
+    font-size: 4vw;
+  }
+  #contact .warber .contact-info {
+    margin: 2vh auto;
+  }
+  .fixed {
+    font-size: 10vw;
+  }
+  .content-container {
+    height: 95vh;
+  }
+
   #potrofolio .warber .cards {
     display: grid;
     grid-template-columns: repeat(2, minmax(30vw, 40vw));
@@ -693,10 +798,114 @@ textarea {
   }
 }
 @media only screen and (max-width: 480px) {
- #home {
+  #home {
     background-image: url(./unnamed.jpg);
   }
-  
+  .nav-links nav ul li {
+    font-size: 2.5vw;
+  }
+  #home h1 {
+    font-size: 10vw;
+  }
+  #home p {
+    font-size: 7.5vw;
+  }
+  #potrofolio .warber .head {
+    font-size: 4vw;
+  }
+  #potrofolio .warber .filter .filter-controls label {
+    font-size: 4vw;
+  }
+  #potrofolio .warber .cards .card .bio h2 {
+    font-size: 3.5vw;
+  }
+  #potrofolio .warber .cards .card .bio {
+    gap: 2vh;
+  }
+  #potrofolio .warber .cards .card .bio p {
+    font-size: 2.5vw;
+  }
+  #about .warber .head {
+    font-size: 4vw;
+  }
+  #about .warber .about-1st .intro {
+    width: 90vw;
+  }
+  #about .warber .about-1st .intro p {
+    font-size: 3vw;
+    text-align: justify;
+  }
+  #about .warber .about-1st {
+    display: flex;
+    flex-flow: column;
+  }
+  #about .warber .about-1st .skills {
+    display: flex;
+    flex-flow: row;
+    align-items: self-start;
+    gap: 4vw;
+  }
+  #about .warber .about-1st .skills table tr {
+    font-size: 3vw;
+  }
+  #about .warber .about-1st .skills .cv {
+    font-size: 3vw;
+  }
+  #about .warber .cards {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+  .solutions .card {
+    display: flex;
+    flex-flow: column;
+    gap: 1vh;
+    font-size: 2.5vw;
+    line-height: 2vh;
+    width: 40vw;
+  }
+  .solutions .card i {
+    font-size: 6vw;
+  }
+  #contact .warber .head {
+    font-size: 4vw;
+  }
+  #contact .warber .input-form form .name-email .name,
+  .email {
+    width: 44vw;
+  }
+  #contact .warber .input-form form div input,
+  textarea {
+    font-size: 4vw;
+  }
+  #contact .warber .input-form form .submit input {
+    width: 40vw;
+    font-size: 4vw;
+  }
+  #contact .warber .contact-info {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 6vw;
+  }
+  #contact .warber .contact-info div {
+    font-size: 5vw;
+  }
+  #contact .warber .contact-info div i {
+    font-size: 7vw;
+  }
+  #contact .warber footer div {
+    font-size: 4vw;
+  }
+  #contact .warber .contact-info {
+    margin: 2vh auto;
+  }
+  .fixed {
+    font-size: 10vw;
+  }
+  .content-container {
+    height: 95vh;
+  }
+
   #potrofolio .warber .cards {
     display: grid;
     grid-template-columns: repeat(2, minmax(30vw, 40vw));
@@ -755,6 +964,3 @@ textarea {
 .fixed:hover {
   font-size: 3.5vw;
 }
-
-
-
